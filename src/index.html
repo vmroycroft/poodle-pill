@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="disabled-adaptations" content="watch" />
+		<link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+
+		<title>Poodles</title>
+
+		<link href="./lib/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet" />
+		<link href="./lib/materialize/css/materialize.min.css" rel="stylesheet" />
+		<link href="./lib/animatecss/animate.min.css" rel="stylesheet" />
+		<link href="./all.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- Utility bar -->
+		<div class="utility-bar grey lighten-4 z-depth-1">
+			<div id="date"></div>
+			<div id="update-icons">
+				<div class="edit-tools animated">
+					<i id="save" class="fas fa-check"></i>
+					<i id="cancel" class="fas fa-times"></i>
+				</div>
+				<i id="edit" class="fas fa-edit"></i>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- Brody -->
+			<div id="brody" class="poodle hoverable card grey">
+				<div class="box poodle__image"></div>
+				<div class="box poodle__name">Brody</div>
+				<div class="box poodle__administrations">
+					<div class="row">
+						<div class="col s6">
+							<label>
+								<input type="checkbox" class="filled-in checkbox-black" id="brody-time-1" value="6:30am" />
+								<span class="scheduled-time">6:30am</span>
+							</label>
+							<div class="actual-time"></div>
+							<a class="edit-time animated waves-effect waves-light btn-small">Edit Time</a>
+							<input type="text" class="timepicker" />
+						</div>
+						<div class="col s6">
+							<label>
+								<input type="checkbox" class="filled-in checkbox-black" id="brody-time-2" value="6:30pm" />
+								<span class="scheduled-time">6:30pm</span>
+							</label>
+							<div class="actual-time"></div>
+							<a class="edit-time animated waves-effect waves-light btn-small">Edit Time</a>
+							<input type="text" class="timepicker" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Chiana -->
+			<div id="chiana" class="poodle hoverable card pink accent-4">
+				<div class="box poodle__image"></div>
+				<div class="box poodle__name">Chiana</div>
+				<div class="box poodle__administrations">
+					<div class="row">
+						<div class="col s4">
+							<label>
+								<input type="checkbox" class="filled-in checkbox-black" id="chiana-time-1" value="6:30am" />
+								<span class="scheduled-time">6:30am</span>
+							</label>
+							<div class="actual-time"></div>
+							<a class="edit-time animated waves-effect waves-light btn-small">Edit Time</a>
+							<input type="text" class="timepicker" />
+						</div>
+						<div class="col s4">
+							<label>
+								<input type="checkbox" class="filled-in checkbox-black" id="chiana-time-2" value="2:30pm" />
+								<span class="scheduled-time">2:30pm</span>
+							</label>
+							<div class="actual-time"></div>
+							<a class="edit-time animated waves-effect waves-light btn-small">Edit Time</a>
+							<input type="text" class="timepicker" />
+						</div>
+						<div class="col s4">
+							<label>
+								<input type="checkbox" class="filled-in checkbox-black" id="chiana-time-3" value="10:30pm" />
+								<span class="scheduled-time">10:30pm</span>
+							</label>
+							<div class="actual-time"></div>
+							<a class="edit-time animated waves-effect waves-light btn-small">Edit Time</a>
+							<input type="text" class="timepicker" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="timepicker-container"></div>
+
+		<script src="./lib/jquery/jquery-3.2.1.min.js"></script>
+		<script src="./lib/materialize/js/materialize.min.js"></script>
+		<script src="./lib/moment/moment.min.js"></script>
+		<script src="./all.min.js"></script>
+	</body>
+</html>
