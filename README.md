@@ -1,4 +1,4 @@
-# Poodles ![v3](https://img.shields.io/github/package-json/v/vmroycroft/vanessaroycroft-v3.svg)
+# Poodle Pill ![v3](https://img.shields.io/github/package-json/v/vmroycroft/vanessaroycroft-v3.svg)
 
 This is the current version of my poodle medicine tracking website built with [Vue.js](https://vuejs.org/).
 
